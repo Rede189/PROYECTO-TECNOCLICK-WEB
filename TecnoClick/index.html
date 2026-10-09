@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="TecnoClick: aprende habilidades digitales con cursos prácticos y accesibles.">
+
+    <title>TecnoClick | Aprende. Crea. Avanza.</title>
+
+    <!-- Tipografías modernas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Iconos -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- JavaScript -->
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo" aria-label="TecnoClick, inicio">
+                <span class="logo-icon">
+                    <i data-lucide="monitor-smartphone"></i>
+                </span>
+                <span>Tecno<span class="logo-accent">Click</span></span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="navLinks"
+            >
+                <i data-lucide="menu"></i>
+            </button>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#cursos" class="nav-link">Cursos</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#beneficios" class="nav-link">Beneficios</a>
+                <a href="#contacto" class="btn btn-small btn-primary">
+                    Comenzar ahora
+                    <i data-lucide="arrow-up-right"></i>
+                </a>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- PRESENTACIÓN PRINCIPAL -->
+        <section class="hero section" id="inicio">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        APRENDE A TU PROPIO RITMO
+                    </div>
+
+                    <h1>
+                        El futuro digital
+                        <span>comienza contigo.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Descubre nuevas habilidades, domina herramientas
+                        digitales y transforma tus ideas en oportunidades
+                        con TecnoClick.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#cursos" class="btn btn-primary">
+                            Explorar cursos
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+
+                        <a href="#nosotros" class="btn btn-secondary">
+                            Conócenos
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <i data-lucide="check-circle-2"></i>
+                        Aprende paso a paso, desde cero.
+                    </div>
+
+                </div>
+
+                <!-- ILUSTRACIÓN VISUAL -->
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="visual-card main-visual-card">
+
+                        <div class="visual-top">
+                            <div class="window-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span class="visual-label">TU ESPACIO DIGITAL</span>
+                        </div>
+
+                        <div class="visual-screen">
+                            <div class="screen-sidebar">
+                                <div class="sidebar-logo">
+                                    <i data-lucide="layers"></i>
+                                </div>
+                                <span class="sidebar-item selected"></span>
+                                <span class="sidebar-item"></span>
+                                <span class="sidebar-item"></span>
+                                <span class="sidebar-item"></span>
+                            </div>
+
+                            <div class="screen-content">
+                                <div class="screen-greeting">
+                                    <span>¡Hola, estudiante!</span>
+                                    <i data-lucide="sparkles"></i>
+                                </div>
+
+                                <h3>Tu próxima habilidad<br>empieza aquí.</h3>
+
+                                <div class="screen-progress">
+                                    <div>
+                                        <span>Tu aprendizaje</span>
+                                        <strong>En progreso</strong>
+                                    </div>
+                                    <div class="progress-track">
+                                        <span></span>
+                                    </div>
+                                </div>
+
+                                <div class="mini-courses">
+                                    <div class="mini-course">
+                                        <span class="mini-icon purple">
+                                            <i data-lucide="palette"></i>
+                                        </span>
+                                        <span>Diseño digital</span>
+                                        <i data-lucide="arrow-up-right"></i>
+                                    </div>
+
+                                    <div class="mini-course">
+                                        <span class="mini-icon blue">
+                                            <i data-lucide="code-2"></i>
+                                        </span>
+                                        <span>Desarrollo web</span>
+                                        <i data-lucide="arrow-up-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="floating-card floating-top">
+                        <span class="floating-icon">
+                            <i data-lucide="lightbulb"></i>
+                        </span>
+                        <div>
+                            <strong>Nuevas ideas</strong>
+                            <span>Grandes posibilidades</span>
+                        </div>
+                    </div>
+
+                    <div class="floating-card floating-bottom">
+                        <span class="floating-icon green">
+                            <i data-lucide="graduation-cap"></i>
+                        </span>
+                        <div>
+                            <strong>Aprende y crece</strong>
+                            <span>Un paso a la vez</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FRANJA INFORMATIVA -->
+        <section class="trust-strip">
+            <div class="container trust-content">
+                <span>APRENDE</span>
+                <i data-lucide="plus"></i>
+                <span>PRACTICA</span>
+                <i data-lucide="plus"></i>
+                <span>CREA</span>
+                <i data-lucide="plus"></i>
+                <span>AVANZA</span>
+            </div>
+        </section>
+
+        <!-- CURSOS -->
+        <section class="section courses-section" id="cursos">
+            <div class="container">
+
+                <div class="section-heading">
+                    <div>
+                        <span class="section-tag">NUESTROS CURSOS</span>
+                        <h2>Habilidades para un <span>mundo digital.</span></h2>
+                    </div>
+
+                    <p>
+                        Explora áreas de aprendizaje diseñadas para ayudarte
+                        a desarrollar conocimientos útiles para tus estudios,
+                        proyectos y futuro profesional.
+                    </p>
+                </div>
+
+                <div class="courses-grid">
+
+                    <article class="course-card">
+                        <div class="course-icon icon-purple">
+                            <i data-lucide="monitor"></i>
+                        </div>
+                        <span class="course-number">01 / INFORMÁTICA</span>
+                        <h3>Informática básica</h3>
+                        <p>
+                            Conoce la computadora, organiza tus archivos
+                            y aprende a utilizar sus herramientas esenciales.
+                        </p>
+                        <a href="#contacto" class="course-link">
+                            Conocer más
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-icon icon-blue">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <span class="course-number">02 / CREATIVIDAD</span>
+                        <h3>Diseño digital</h3>
+                        <p>
+                            Explora los principios del diseño y crea
+                            presentaciones y composiciones visuales.
+                        </p>
+                        <a href="#contacto" class="course-link">
+                            Conocer más
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-icon icon-orange">
+                            <i data-lucide="file-spreadsheet"></i>
+                        </div>
+                        <span class="course-number">03 / PRODUCTIVIDAD</span>
+                        <h3>Herramientas ofimáticas</h3>
+                        <p>
+                            Aprende a trabajar con documentos,
+                            presentaciones y hojas de cálculo.
+                        </p>
+                        <a href="#contacto" class="course-link">
+                            Conocer más
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                    <article class="course-card">
+                        <div class="course-icon icon-green">
+                            <i data-lucide="code-2"></i>
+                        </div>
+                        <span class="course-number">04 / TECNOLOGÍA</span>
+                        <h3>Creación de páginas web</h3>
+                        <p>
+                            Da tus primeros pasos con HTML, CSS y JavaScript
+                            para construir sitios web.
+                        </p>
+                        <a href="#contacto" class="course-link">
+                            Conocer más
+                            <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE NOSOTROS -->
+        <section class="section about-section" id="nosotros">
+            <div class="container about-grid">
+
+                <div class="about-visual">
+                    <div class="about-decoration decoration-one"></div>
+                    <div class="about-decoration decoration-two"></div>
+
+                    <div class="about-panel">
+                        <span class="about-symbol">
+                            <i data-lucide="mouse-pointer-click"></i>
+                        </span>
+
+                        <span class="about-mini-label">TU CAMINO DIGITAL</span>
+
+                        <h3>Pequeños pasos.<br>Grandes posibilidades.</h3>
+
+                        <p>
+                            El conocimiento crece cuando lo pones en práctica.
+                        </p>
+
+                        <div class="about-steps">
+                            <span><i data-lucide="check"></i> Descubre</span>
+                            <span><i data-lucide="check"></i> Aprende</span>
+                            <span><i data-lucide="check"></i> Crea</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="section-tag">SOBRE TECNOCLICK</span>
+
+                    <h2>La tecnología es una herramienta. <span>Aprender es el primer paso.</span></h2>
+
+                    <p>
+                        En TecnoClick queremos acercar el aprendizaje digital
+                        a más personas. Nuestra propuesta se basa en explicar
+                        de manera clara, practicar con ejemplos y avanzar
+                        progresivamente.
+                    </p>
+
+                    <div class="about-feature">
+                        <span class="feature-check">
+                            <i data-lucide="check"></i>
+                        </span>
+                        <div>
+                            <h4>Explicaciones claras</h4>
+                            <p>Conceptos presentados de forma sencilla y organizada.</p>
+                        </div>
+                    </div>
+
+                    <div class="about-feature">
+                        <span class="feature-check">
+                            <i data-lucide="check"></i>
+                        </span>
+                        <div>
+                            <h4>Aprendizaje práctico</h4>
+                            <p>Conocimientos que puedes aplicar en tus proyectos.</p>
+                        </div>
+                    </div>
+
+                    <a href="#beneficios" class="text-link">
+                        Descubre nuestros beneficios
+                        <i data-lucide="arrow-down-right"></i>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BENEFICIOS -->
+        <section class="section benefits-section" id="beneficios">
+            <div class="container">
+
+                <div class="benefits-heading">
+                    <span class="section-tag">¿POR QUÉ TECNOCLICK?</span>
+                    <h2>Aprender tecnología puede ser <span>más sencillo.</span></h2>
+                    <p>Queremos que cada paso de tu aprendizaje tenga sentido.</p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <i data-lucide="book-open"></i>
+                        <h3>Fácil de entender</h3>
+                        <p>Explicaciones claras, ordenadas y paso a paso.</p>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i data-lucide="laptop"></i>
+                        <h3>Enfoque práctico</h3>
+                        <p>Aprende mediante ejercicios y proyectos digitales.</p>
+                    </div>
+
+                    <div class="benefit-item">
+                        <i data-lucide="trending-up"></i>
+                        <h3>Crece a tu ritmo</h3>
+                        <p>Construye tus conocimientos desde los fundamentos.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- LLAMADA A LA ACCIÓN -->
+        <section class="section contact-section" id="contacto">
+            <div class="container">
+                <div class="contact-panel">
+                    <div class="contact-content">
+                        <span class="contact-tag">TU SIGUIENTE PASO</span>
+                        <h2>Tu próxima oportunidad puede comenzar con un clic.</h2>
+                        <p>
+                            Explora nuestros cursos y descubre nuevas
+                            posibilidades en el mundo digital.
+                        </p>
+                    </div>
+
+                    <a href="#cursos" class="btn btn-light">
+                        Explorar cursos
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="footer">
+        <div class="container footer-main">
+
+            <a href="#inicio" class="logo footer-logo">
+                <span class="logo-icon">
+                    <i data-lucide="monitor-smartphone"></i>
+                </span>
+                <span>Tecno<span class="logo-accent">Click</span></span>
+            </a>
+
+            <p>Aprende. Crea. Avanza.</p>
+
+            <a href="#inicio" class="back-to-top">
+                Volver arriba
+                <i data-lucide="arrow-up"></i>
+            </a>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>&copy; <span id="currentYear"></span> TecnoClick. Todos los derechos reservados.</p>
+            <span>Construyendo habilidades para el mundo digital.</span>
+        </div>
+    </footer>
+
+</body>
+</html>
