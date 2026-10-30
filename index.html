@@ -1,26 +1,19 @@
 
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TecnoClick: aprende tecnología paso a paso, con cursos digitales pensados para personas adultas mayores.">
+    <title>TecnoClick | La tecnología a tu alcance</title>
 
-    <meta name="description" content="TecnoClick: aprende habilidades digitales con cursos prácticos y accesibles.">
-
-    <title>TecnoClick | Aprende. Crea. Avanza.</title>
-
-    <!-- Tipografías modernas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!-- Hoja de estilos -->
     <link rel="stylesheet" href="css/estilos.css">
-
-    <!-- Iconos -->
     <script src="https://unpkg.com/lucide@latest"></script>
-
-    <!-- JavaScript -->
     <script src="js/main.js" defer></script>
 </head>
 
@@ -29,760 +22,609 @@
     <!-- ENCABEZADO -->
     <header class="header">
         <nav class="navbar container">
+            <a href="#inicio" class="logo">
+                <img src="img/logo.png" alt="Logo TecnoClick">
+                <span>TecnoClick</span>
+            </a>
 
-            
-<a href="#inicio" class="logo" aria-label="TecnoClick, inicio">
-    <img src="img/logo.png" alt="Logo de TecnoClick" class="logo-img">
-    <span>Tecno<span class="logo-accent">Click</span></span>
-</a>
-
-
-            <button
-                class="menu-toggle"
-                id="menuToggle"
-                aria-label="Abrir menú"
-                aria-expanded="false"
-                aria-controls="navLinks"
-            >
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Abrir menú" aria-expanded="false"
+                aria-controls="navLinks">
                 <i data-lucide="menu"></i>
             </button>
 
             <div class="nav-links" id="navLinks">
-                <a href="#inicio" class="nav-link active">Inicio</a>
-                <a href="#cursos" class="nav-link">Cursos</a>
-                <a href="#nosotros" class="nav-link">Nosotros</a>
-                <a href="#beneficios" class="nav-link">Beneficios</a>
-                <a href="#contacto" class="btn btn-small btn-primary">
-                    Comenzar ahora
-                    <i data-lucide="arrow-up-right"></i>
-                </a>
+                <a href="#inicio">Inicio</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#beneficios">Beneficios</a>
+                <a href="#contacto" class="nav-button">Contáctanos</a>
             </div>
-
         </nav>
     </header>
 
     <main>
 
-        <!-- PRESENTACIÓN PRINCIPAL -->
-        <section class="hero section" id="inicio">
-            <div class="container hero-grid">
-
-                <div class="hero-content">
-
-                    <div class="eyebrow">
-                        <span class="status-dot"></span>
+        <!-- INICIO -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="eyebrow">
+                        <i data-lucide="heart-handshake"></i>
                         APRENDE A TU PROPIO RITMO
-                    </div>
+                    </span>
 
-                    <h1>
-                        El futuro digital
-                        <span>comienza contigo.</span>
-                    </h1>
+                    <h1>La tecnología también es para ti.</h1>
 
-                    <p class="hero-description">
-                        Descubre nuevas habilidades, domina herramientas
-                        digitales y transforma tus ideas en oportunidades
-                        con TecnoClick.
+                    <p>
+                        Nunca es tarde para aprender algo nuevo.
+                        Descubre cómo utilizar la computadora, navegar por
+                        Internet y aprovechar las herramientas digitales
+                        de una manera sencilla y práctica.
                     </p>
 
-                    <div class="hero-actions">
+                    <div class="hero-buttons">
                         <a href="#cursos" class="btn btn-primary">
-                            Explorar cursos
+                            Conoce nuestros cursos
                             <i data-lucide="arrow-right"></i>
                         </a>
 
-                        <a href="#nosotros" class="btn btn-secondary">
+                        <a href="#nosotros" class="btn btn-outline">
                             Conócenos
                         </a>
                     </div>
 
                     <div class="hero-note">
-                        <i data-lucide="check-circle-2"></i>
-                        Aprende paso a paso, desde cero.
+                        <i data-lucide="check-circle"></i>
+                        Sin prisas, sin complicaciones y paso a paso.
                     </div>
-
                 </div>
 
-                <!-- ILUSTRACIÓN VISUAL -->
-                <div class="hero-visual">
-
-                    <div class="visual-glow"></div>
-
-                    <div class="visual-card main-visual-card">
-
-                        <div class="visual-top">
-                            <div class="window-dots">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-
-                            <span class="visual-label">TU ESPACIO DIGITAL</span>
-                        </div>
-
-                        <div class="visual-screen">
-                            <div class="screen-sidebar">
-                                <div class="sidebar-logo">
-                                    <i data-lucide="layers"></i>
-                                </div>
-                                <span class="sidebar-item selected"></span>
-                                <span class="sidebar-item"></span>
-                                <span class="sidebar-item"></span>
-                                <span class="sidebar-item"></span>
-                            </div>
-
-                            <div class="screen-content">
-                                <div class="screen-greeting">
-                                    <span>¡Hola, estudiante!</span>
-                                    <i data-lucide="sparkles"></i>
-                                </div>
-
-                                <h3>Tu próxima habilidad<br>empieza aquí.</h3>
-
-                                <div class="screen-progress">
-                                    <div>
-                                        <span>Tu aprendizaje</span>
-                                        <strong>En progreso</strong>
-                                    </div>
-                                    <div class="progress-track">
-                                        <span></span>
-                                    </div>
-                                </div>
-
-                                <div class="mini-courses">
-                                    <div class="mini-course">
-                                        <span class="mini-icon purple">
-                                            <i data-lucide="palette"></i>
-                                        </span>
-                                        <span>Diseño digital</span>
-                                        <i data-lucide="arrow-up-right"></i>
-                                    </div>
-
-                                    <div class="mini-course">
-                                        <span class="mini-icon blue">
-                                            <i data-lucide="code-2"></i>
-                                        </span>
-                                        <span>Desarrollo web</span>
-                                        <i data-lucide="arrow-up-right"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
+                <div class="hero-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
+                        alt="Persona adulta aprendiendo a utilizar una computadora">
+                    <div class="image-label">
+                        <i data-lucide="monitor"></i>
+                        Aprende tecnología con confianza
                     </div>
-
-                    <div class="floating-card floating-top">
-                        <span class="floating-icon">
-                            <i data-lucide="lightbulb"></i>
-                        </span>
-                        <div>
-                            <strong>Nuevas ideas</strong>
-                            <span>Grandes posibilidades</span>
-                        </div>
-                    </div>
-
-                    <div class="floating-card floating-bottom">
-                        <span class="floating-icon green">
-                            <i data-lucide="graduation-cap"></i>
-                        </span>
-                        <div>
-                            <strong>Aprende y crece</strong>
-                            <span>Un paso a la vez</span>
-                        </div>
-                    </div>
-
                 </div>
             </div>
         </section>
 
-        <!-- FRANJA INFORMATIVA -->
-        <section class="trust-strip">
-            <div class="container trust-content">
-                <span>APRENDE</span>
-                <i data-lucide="plus"></i>
-                <span>PRACTICA</span>
-                <i data-lucide="plus"></i>
-                <span>CREA</span>
-                <i data-lucide="plus"></i>
-                <span>AVANZA</span>
+        <!-- MENSAJE DE CONFIANZA -->
+        <section class="trust-section">
+            <div class="container trust-grid">
+                <div class="trust-item">
+                    <i data-lucide="book-open"></i>
+                    <span>Aprende</span>
+                </div>
+
+                <div class="trust-item">
+                    <i data-lucide="mouse-pointer-click"></i>
+                    <span>Practica</span>
+                </div>
+
+                <div class="trust-item">
+                    <i data-lucide="lightbulb"></i>
+                    <span>Descubre</span>
+                </div>
+
+                <div class="trust-item">
+                    <i data-lucide="trending-up"></i>
+                    <span>Avanza</span>
+                </div>
             </div>
         </section>
 
         <!-- CURSOS -->
         <section class="section courses-section" id="cursos">
             <div class="container">
-
                 <div class="section-heading">
-                    <div>
-                        <span class="section-tag">NUESTROS CURSOS</span>
-                        <h2>Habilidades para un <span>mundo digital.</span></h2>
-                    </div>
-
+                    <span class="eyebrow">NUESTROS CURSOS</span>
+                    <h2>Aprende algo nuevo cada día</h2>
                     <p>
-                        Explora áreas de aprendizaje diseñadas para ayudarte
-                        a desarrollar conocimientos útiles para tus estudios,
-                        proyectos y futuro profesional.
+                        Encuentra el curso que necesitas y descubre
+                        nuevas formas de utilizar la tecnología.
                     </p>
                 </div>
 
                 <div class="courses-grid">
 
                     <article class="course-card">
-                        <div class="course-icon icon-purple">
-                            <i data-lucide="monitor"></i>
+                        <div class="course-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=85"
+                                alt="Persona utilizando una computadora">
+                            <span class="course-number">01</span>
                         </div>
-                        <span class="course-number">01 / INFORMÁTICA</span>
-                        <h3>Informática básica</h3>
-                        <p>
-                            Conoce la computadora, organiza tus archivos
-                            y aprende a utilizar sus herramientas esenciales.
-                        </p>
-                        <a href="#"
-    class="course-link"
-   id="abrir-informatica"
-   aria-haspopup="dialog"
-   aria-controls="modal-informatica">
-    Conocer más
-    <i data-lucide="arrow-up-right"></i>
-</a>
+
+                        <div class="course-content">
+                            <span class="course-tag">PRIMEROS PASOS</span>
+                            <h3>Informática básica</h3>
+                            <p>
+                                Aprende a utilizar la computadora,
+                                conocer sus partes y manejar sus
+                                funciones principales.
+                            </p>
+                            <button class="btn btn-card" id="abrir-informatica">
+                                Conocer más
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
                     </article>
 
                     <article class="course-card">
-                        <div class="course-icon icon-blue">
-                            <i data-lucide="palette"></i>
+                        <div class="course-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=700&q=85"
+                                alt="Espacio de trabajo para diseño digital">
+                            <span class="course-number">02</span>
                         </div>
-                        <span class="course-number">02 / CREATIVIDAD</span>
-                        <h3>Diseño digital</h3>
-                        <p>
-                            Explora los principios del diseño y crea
-                            presentaciones y composiciones visuales.
-                        </p>
-                        
-<a href="#"
-   class="course-link"
-   id="abrir-diseno"
-   aria-haspopup="dialog"
-   aria-controls="modal-diseno">
-    Conocer más
-    <i data-lucide="arrow-up-right"></i>
-</a>
 
+                        <div class="course-content">
+                            <span class="course-tag">CREATIVIDAD</span>
+                            <h3>Diseño digital</h3>
+                            <p>
+                                Descubre cómo crear imágenes,
+                                invitaciones y diseños utilizando
+                                herramientas digitales.
+                            </p>
+                            <button class="btn btn-card" id="abrir-diseno">
+                                Conocer más
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
                     </article>
 
                     <article class="course-card">
-                        <div class="course-icon icon-orange">
-                            <i data-lucide="file-spreadsheet"></i>
+                        <div class="course-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=700&q=85"
+                                alt="Documentos y trabajo de oficina">
+                            <span class="course-number">03</span>
                         </div>
-                        <span class="course-number">03 / PRODUCTIVIDAD</span>
-                        <h3>Herramientas ofimáticas</h3>
-                        <p>
-                            Aprende a trabajar con documentos,
-                            presentaciones y hojas de cálculo.
-                        </p>
-                        
-<a href="#"
-   class="course-link"
-   id="abrir-ofimatica"
-   aria-haspopup="dialog"
-   aria-controls="modal-ofimatica">
-    Conocer más
-    <i data-lucide="arrow-up-right"></i>
-</a>
 
+                        <div class="course-content">
+                            <span class="course-tag">PRODUCTIVIDAD</span>
+                            <h3>Herramientas ofimáticas</h3>
+                            <p>
+                                Aprende a crear documentos, organizar
+                                información y realizar cálculos
+                                sencillos.
+                            </p>
+                            <button class="btn btn-card" id="abrir-ofimatica">
+                                Conocer más
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
                     </article>
 
                     <article class="course-card">
-                        <div class="course-icon icon-green">
-                            <i data-lucide="code-2"></i>
+                        <div class="course-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=700&q=85"
+                                alt="Computadora con herramientas de desarrollo web">
+                            <span class="course-number">04</span>
                         </div>
-                        <span class="course-number">04 / TECNOLOGÍA</span>
-                        <h3>Creación de páginas web</h3>
-                        <p>
-                            Da tus primeros pasos con HTML, CSS y JavaScript
-                            para construir sitios web.
-                        </p>
-                        
-<a href="#"
-   class="course-link"
-   id="abrir-web"
-   aria-haspopup="dialog"
-   aria-controls="modal-web">
-    Conocer más
-    <i data-lucide="arrow-up-right"></i>
-</a>
 
+                        <div class="course-content">
+                            <span class="course-tag">MUNDO DIGITAL</span>
+                            <h3>Creación de páginas web</h3>
+                            <p>
+                                Conoce cómo funcionan las páginas web
+                                y aprende a crear una desde cero.
+                            </p>
+                            <button class="btn btn-card" id="abrir-web">
+                                Conocer más
+                                <i data-lucide="arrow-right"></i>
+                            </button>
+                        </div>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <!-- SOBRE NOSOTROS -->
+        <!-- NOSOTROS -->
         <section class="section about-section" id="nosotros">
             <div class="container about-grid">
-
-                <div class="about-visual">
-                    <div class="about-decoration decoration-one"></div>
-                    <div class="about-decoration decoration-two"></div>
-
-                    <div class="about-panel">
-                        <span class="about-symbol">
-                            <i data-lucide="mouse-pointer-click"></i>
-                        </span>
-
-                        <span class="about-mini-label">TU CAMINO DIGITAL</span>
-
-                        <h3>Pequeños pasos.<br>Grandes posibilidades.</h3>
-
-                        <p>
-                            El conocimiento crece cuando lo pones en práctica.
-                        </p>
-
-                        <div class="about-steps">
-                            <span><i data-lucide="check"></i> Descubre</span>
-                            <span><i data-lucide="check"></i> Aprende</span>
-                            <span><i data-lucide="check"></i> Crea</span>
-                        </div>
+                <div class="about-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=1000&q=85"
+                        alt="Personas compartiendo una experiencia de aprendizaje">
+                    <div class="about-badge">
+                        <i data-lucide="graduation-cap"></i>
+                        Aprender siempre es posible
                     </div>
                 </div>
 
-                <div class="about-content">
-                    <span class="section-tag">SOBRE TECNOCLICK</span>
-
-                    <h2>La tecnología es una herramienta. <span>Aprender es el primer paso.</span></h2>
+                <div class="about-text">
+                    <span class="eyebrow">SOBRE TECNOCLICK</span>
+                    <h2>Queremos que te sientas parte del mundo digital.</h2>
 
                     <p>
-                        En TecnoClick queremos acercar el aprendizaje digital
-                        a más personas. Nuestra propuesta se basa en explicar
-                        de manera clara, practicar con ejemplos y avanzar
-                        progresivamente.
+                        En TecnoClick creemos que todas las personas
+                        pueden aprender a utilizar la tecnología,
+                        sin importar su edad o experiencia.
                     </p>
 
-                    <div class="about-feature">
-                        <span class="feature-check">
-                            <i data-lucide="check"></i>
-                        </span>
+                    <p>
+                        Nuestro propósito es ofrecer una enseñanza
+                        sencilla, cercana y práctica, para que cada
+                        estudiante pueda avanzar con tranquilidad
+                        y desarrollar nuevas habilidades.
+                    </p>
+
+                    <div class="about-points">
                         <div>
-                            <h4>Explicaciones claras</h4>
-                            <p>Conceptos presentados de forma sencilla y organizada.</p>
+                            <i data-lucide="check-circle"></i>
+                            Explicaciones fáciles de comprender
+                        </div>
+                        <div>
+                            <i data-lucide="check-circle"></i>
+                            Acompañamiento durante el aprendizaje
+                        </div>
+                        <div>
+                            <i data-lucide="check-circle"></i>
+                            Actividades prácticas y útiles
                         </div>
                     </div>
-
-                    <div class="about-feature">
-                        <span class="feature-check">
-                            <i data-lucide="check"></i>
-                        </span>
-                        <div>
-                            <h4>Aprendizaje práctico</h4>
-                            <p>Conocimientos que puedes aplicar en tus proyectos.</p>
-                        </div>
-                    </div>
-
-                    <a href="#beneficios" class="text-link">
-                        Descubre nuestros beneficios
-                        <i data-lucide="arrow-down-right"></i>
-                    </a>
                 </div>
-
             </div>
         </section>
 
         <!-- BENEFICIOS -->
         <section class="section benefits-section" id="beneficios">
             <div class="container">
-
-                <div class="benefits-heading">
-                    <span class="section-tag">¿POR QUÉ TECNOCLICK?</span>
-                    <h2>Aprender tecnología puede ser <span>más sencillo.</span></h2>
-                    <p>Queremos que cada paso de tu aprendizaje tenga sentido.</p>
+                <div class="section-heading">
+                    <span class="eyebrow">¿POR QUÉ TECNOCLICK?</span>
+                    <h2>Aprender puede ser más fácil de lo que imaginas</h2>
+                    <p>
+                        Queremos que disfrutes cada paso y tengas
+                        confianza al utilizar la tecnología.
+                    </p>
                 </div>
 
                 <div class="benefits-grid">
-                    <div class="benefit-item">
-                        <i data-lucide="book-open"></i>
-                        <h3>Fácil de entender</h3>
-                        <p>Explicaciones claras, ordenadas y paso a paso.</p>
-                    </div>
 
-                    <div class="benefit-item">
-                        <i data-lucide="laptop"></i>
-                        <h3>Enfoque práctico</h3>
-                        <p>Aprende mediante ejercicios y proyectos digitales.</p>
-                    </div>
-
-                    <div class="benefit-item">
-                        <i data-lucide="trending-up"></i>
-                        <h3>Crece a tu ritmo</h3>
-                        <p>Construye tus conocimientos desde los fundamentos.</p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- LLAMADA A LA ACCIÓN -->
-        <section class="section contact-section" id="contacto">
-            <div class="container">
-                <div class="contact-panel">
-                    <div class="contact-content">
-                        <span class="contact-tag">TU SIGUIENTE PASO</span>
-                        <h2>Tu próxima oportunidad puede comenzar con un clic.</h2>
+                    <article class="benefit-card">
+                        <div class="benefit-icon icon-blue">
+                            <i data-lucide="book-open-check"></i>
+                        </div>
+                        <h3>Explicaciones sencillas</h3>
                         <p>
-                            Explora nuestros cursos y descubre nuevas
-                            posibilidades en el mundo digital.
+                            Aprenderás con palabras claras y ejemplos
+                            que podrás comprender fácilmente.
                         </p>
-                    </div>
+                        <button class="text-button" id="abrir-facil">
+                            Saber más <i data-lucide="arrow-right"></i>
+                        </button>
+                    </article>
 
-                    <a href="#cursos" class="btn btn-light">
-                        Explorar cursos
-                        <i data-lucide="arrow-right"></i>
-                    </a>
+                    <article class="benefit-card">
+                        <div class="benefit-icon icon-purple">
+                            <i data-lucide="laptop"></i>
+                        </div>
+                        <h3>Aprendizaje práctico</h3>
+                        <p>
+                            Practicarás directamente en la computadora
+                            para aplicar lo que vas aprendiendo.
+                        </p>
+                        <button class="text-button" id="abrir-practico">
+                            Saber más <i data-lucide="arrow-right"></i>
+                        </button>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="benefit-icon icon-green">
+                            <i data-lucide="clock"></i>
+                        </div>
+                        <h3>A tu propio ritmo</h3>
+                        <p>
+                            Cada persona aprende de manera diferente.
+                            Lo importante es avanzar con tranquilidad.
+                        </p>
+                        <button class="text-button" id="abrir-ritmo">
+                            Saber más <i data-lucide="arrow-right"></i>
+                        </button>
+                    </article>
+
                 </div>
             </div>
         </section>
+
+       
+<!-- CONTACTO -->
+<section class="contact-section" id="contacto">
+    <div class="container contact-content">
+        <div>
+            <span class="eyebrow">DA EL PRIMER PASO</span>
+            <h2>¡Tu aprendizaje puede comenzar hoy!</h2>
+            <p>
+                Acércate a TecnoClick y descubre todo lo que
+                puedes hacer con la tecnología.
+            </p>
+        </div>
+
+        <button type="button" class="btn btn-light" id="abrir-contacto">
+            Contáctanos
+            <i data-lucide="mail"></i>
+        </button>
+    </div>
+</section>
+
+<!-- VENTANA DE CONTACTO -->
+<div class="modal" id="modal-contacto" aria-hidden="true">
+    <div class="modal-content">
+        <button class="modal-close" id="cerrar-contacto"
+            aria-label="Cerrar">&times;</button>
+
+        <span class="eyebrow">TECNOCLICK</span>
+        <h2>¡Estamos para ayudarte!</h2>
+        <p>Comunícate con nosotros y conoce más sobre nuestros cursos.</p>
+
+        <div class="contact-info">
+
+            <div class="contact-item">
+                <i data-lucide="map-pin"></i>
+                <div>
+                    <h3>¿Dónde estamos?</h3>
+                    <p>Av.9 de Abril y Calle BartolomeJener.</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="navigation"></i>
+                <div>
+                    <h3>¿Cómo encontrarnos?</h3>
+                    <p>Consulta nuestra ubicación y referencias para llegar.</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="phone"></i>
+                <div>
+                    <h3>Teléfono</h3>
+                    <p>Cel.+591 67292902   Telf.4403920.</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="mail"></i>
+                <div>
+                    <h3>Correo electrónico</h3>
+                    <p>contacto@tecnoclick.com</p>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <i data-lucide="clock"></i>
+                <div>
+                    <h3>Horarios de atención</h3>
+                    <p>9:00am-13:00pm y 16:30pm-19:00pm (LUNES A VIERNES).</p>
+                </div>
+            </div>
+
+        </div>
+
+        <button type="button" class="btn btn-primary"
+            id="listo-contacto">
+            ¡Entendido!
+        </button>
+    </div>
+</div>
+
+        
 
     </main>
 
     <!-- PIE DE PÁGINA -->
     <footer class="footer">
-        <div class="container footer-main">
-
-            
-<a href="#inicio" class="logo footer-logo">
-    <img src="img/logo.png" alt="Logo de TecnoClick" class="logo-img">
-    <span>Tecno<span class="logo-accent">Click</span></span>
-</a>
-
-
-            <p>Aprende. Crea. Avanza.</p>
-
-            <a href="#inicio" class="back-to-top">
-                Volver arriba
-                <i data-lucide="arrow-up"></i>
+        <div class="container footer-content">
+            <a href="#inicio" class="logo footer-logo">
+                <img src="img/logo.png" alt="Logo TecnoClick">
+                <span>TecnoClick</span>
             </a>
 
-        </div>
+            <p>
+                La tecnología no tiene edad. Aprende, descubre y avanza.
+            </p>
 
-        <div class="container footer-bottom">
-            <p>&copy; <span id="currentYear"></span> TecnoClick. Todos los derechos reservados.</p>
-            <span>Construyendo habilidades para el mundo digital.</span>
+            <div class="footer-bottom">
+                <span>© <span id="currentYear"></span> TecnoClick. Todos los derechos reservados.</span>
+                <a href="#inicio">
+                    Volver arriba <i data-lucide="arrow-up"></i>
+                </a>
+            </div>
         </div>
     </footer>
-    
-<!-- VENTANA EMERGENTE: INFORMÁTICA BÁSICA -->
-<div class="modal-curso"
-     id="modal-informatica"
-     role="dialog"
-     aria-modal="true"
-     aria-labelledby="titulo-informatica"
-     aria-hidden="true">
 
-    <div class="modal-curso-contenido">
+    <!-- MODALES DE CURSOS -->
 
-        <button type="button"
-                class="cerrar-modal"
-                id="cerrar-informatica"
-                aria-label="Cerrar ventana">
-            <i data-lucide="x"></i>
-        </button>
-
-<span class="section-tag">CURSO 01 / INFORMÁTICA</span>
-
-<div class="modal-imagen">
-    <img
-        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=85"
-        alt="Persona aprendiendo informática en una computadora"
-        loading="lazy">
-    <span class="etiqueta-imagen">Aprende desde cero</span>
-</div>
-
-<h2 id="titulo-informatica">
-    Informática <span>básica</span>
-</h2>
-
-<p class="modal-curso-descripcion">
-    Descubre cómo utilizar una computadora con confianza.
-    Aprende las funciones principales, organiza tus archivos
-    y desarrolla habilidades digitales útiles para tus estudios.
-</p>
-
-<div class="modal-datos">
-    <div><strong>01</strong><span>Fundamentos</span></div>
-    <div><strong>02</strong><span>Archivos</span></div>
-    <div><strong>03</strong><span>Internet</span></div>
-</div>
-
-<h3>Lo que aprenderás</h3>
-
-<div class="modal-temas">
-    <div class="tema-curso">
-        <i data-lucide="monitor"></i>
-        <div><strong>Conoce tu computadora</strong>
-        <p>Identifica sus componentes y funciones.</p></div>
+    <div class="modal-curso" id="modal-informatica" aria-hidden="true">
+        <div class="modal-curso-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-informatica">
+            <button class="cerrar-modal" id="cerrar-informatica" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <img class="modal-imagen"
+                src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
+                alt="Aprendizaje de informática básica">
+            <div class="modal-datos">
+                <span class="eyebrow">CURSO 01</span>
+                <h2 id="titulo-informatica">Informática básica</h2>
+                <p>
+                    Da tus primeros pasos en el mundo de la informática.
+                    Aprende a reconocer las partes de una computadora
+                    y a utilizar sus funciones principales.
+                </p>
+                <h3>¿Qué aprenderás?</h3>
+                <ul class="modal-temas">
+                    <li>Conocer las partes de la computadora.</li>
+                    <li>Utilizar el teclado y el ratón.</li>
+                    <li>Encender y apagar correctamente el equipo.</li>
+                    <li>Crear, guardar y organizar archivos.</li>
+                    <li>Utilizar Internet de forma básica.</li>
+                </ul>
+                <button class="btn btn-primary modal-listo" id="boton-listo-informatica">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-    <div class="tema-curso">
-        <i data-lucide="folder-open"></i>
-        <div><strong>Organiza tus archivos</strong>
-        <p>Crea carpetas, guarda documentos y encuentra tus archivos.</p></div>
+
+    <div class="modal-curso" id="modal-diseno" aria-hidden="true">
+        <div class="modal-curso-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-diseno">
+            <button class="cerrar-modal" id="cerrar-diseno" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <img class="modal-imagen"
+                src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&w=900&q=85"
+                alt="Diseño digital">
+            <div class="modal-datos">
+                <span class="eyebrow">CURSO 02</span>
+                <h2 id="titulo-diseno">Diseño digital</h2>
+                <p>
+                    Explora tu creatividad mediante herramientas
+                    digitales fáciles de utilizar. Aprende a crear
+                    diseños para diferentes ocasiones.
+                </p>
+                <h3>¿Qué aprenderás?</h3>
+                <ul class="modal-temas">
+                    <li>Conocer herramientas de diseño.</li>
+                    <li>Crear tarjetas e invitaciones.</li>
+                    <li>Combinar colores y textos.</li>
+                    <li>Agregar fotografías e imágenes.</li>
+                    <li>Guardar y compartir tus diseños.</li>
+                </ul>
+                <button class="btn btn-primary modal-listo" id="listo-diseno">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-    <div class="tema-curso">
-        <i data-lucide="globe"></i>
-        <div><strong>Explora Internet</strong>
-        <p>Busca información y conoce hábitos de navegación segura.</p></div>
+
+    <div class="modal-curso" id="modal-ofimatica" aria-hidden="true">
+        <div class="modal-curso-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-ofimatica">
+            <button class="cerrar-modal" id="cerrar-ofimatica" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <img class="modal-imagen"
+                src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=85"
+                alt="Herramientas ofimáticas">
+            <div class="modal-datos">
+                <span class="eyebrow">CURSO 03</span>
+                <h2 id="titulo-ofimatica">Herramientas ofimáticas</h2>
+                <p>
+                    Aprende a utilizar programas que te ayudarán
+                    a escribir documentos, organizar información
+                    y realizar operaciones sencillas.
+                </p>
+                <h3>¿Qué aprenderás?</h3>
+                <ul class="modal-temas">
+                    <li>Crear documentos en Word.</li>
+                    <li>Escribir y dar formato a textos.</li>
+                    <li>Conocer las funciones básicas de Excel.</li>
+                    <li>Organizar datos en tablas.</li>
+                    <li>Guardar e imprimir documentos.</li>
+                </ul>
+                <button class="btn btn-primary modal-listo" id="listo-ofimatica">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-</div>
 
-<div class="modal-curso-practica">
-    <i data-lucide="laptop"></i>
-    <div>
-        <h3>Tu reto práctico</h3>
-        <p>Organiza una carpeta con documentos y recursos digitales.</p>
+    <div class="modal-curso" id="modal-web" aria-hidden="true">
+        <div class="modal-curso-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-web">
+            <button class="cerrar-modal" id="cerrar-web" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <img class="modal-imagen"
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85"
+                alt="Creación de páginas web">
+            <div class="modal-datos">
+                <span class="eyebrow">CURSO 04</span>
+                <h2 id="titulo-web">Creación de páginas web</h2>
+                <p>
+                    Descubre cómo se construyen los sitios web
+                    y aprende a crear una página sencilla con
+                    herramientas básicas.
+                </p>
+                <h3>¿Qué aprenderás?</h3>
+                <ul class="modal-temas">
+                    <li>Conocer qué es una página web.</li>
+                    <li>Comprender para qué sirve HTML.</li>
+                    <li>Dar estilo a una página con CSS.</li>
+                    <li>Agregar imágenes y textos.</li>
+                    <li>Visualizar tu primera página web.</li>
+                </ul>
+                <button class="btn btn-primary modal-listo" id="listo-web">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-</div>
 
-<button type="button" class="btn btn-primary"
-        id="boton-listo-informatica">
-    ¡Entendido! 
-            <i data-lucide="check"></i>
-        </button>
+    <!-- MODALES DE BENEFICIOS -->
 
+    <div class="modal-beneficio" id="modal-facil" aria-hidden="true">
+        <div class="modal-beneficio-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-facil">
+            <button class="cerrar-beneficio" id="cerrar-facil" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="beneficio-imagen">
+                <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=900&q=85"
+                    alt="Aprendizaje acompañado">
+            </div>
+            <div class="beneficio-detalles">
+                <span class="eyebrow">APRENDIZAJE SENCILLO</span>
+                <h2 id="titulo-facil">Explicaciones sencillas</h2>
+                <p>
+                    Los temas se presentan de forma clara y ordenada.
+                    Cada explicación busca que puedas comprender
+                    los conceptos sin sentirte abrumado.
+                </p>
+                <button class="btn btn-primary" id="listo-facil">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-</div>
-<!-- FIN DE LA VENTANA EMERGENTE -->
- <!-- MODAL: DISEÑO DIGITAL -->
-<div class="modal-curso"
-     id="modal-diseno"
-     role="dialog"
-     aria-modal="true"
-     aria-labelledby="titulo-diseno"
-     aria-hidden="true">
 
-    <div class="modal-curso-contenido">
-
-        <button type="button" class="cerrar-modal"
-                id="cerrar-diseno" aria-label="Cerrar ventana">
-            <i data-lucide="x"></i>
-        </button>
-<span class="section-tag">CURSO 02 / DISEÑO</span>
-
-<div class="modal-imagen">
-    <img
-        src="https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=85"
-        alt="Herramientas y proyectos de diseño gráfico"
-        loading="lazy">
-    <span class="etiqueta-imagen">Crea algo único</span>
-</div>
-
-<h2 id="titulo-diseno">
-    Diseño <span>digital</span>
-</h2>
-
-<p class="modal-curso-descripcion">
-    Transforma tus ideas en contenido visual atractivo.
-    Descubre cómo combinar colores, tipografías e imágenes
-    para crear diseños que comuniquen tus ideas.
-</p>
-
-<div class="modal-datos">
-    <div><strong>01</strong><span>Creatividad</span></div>
-    <div><strong>02</strong><span>Composición</span></div>
-    <div><strong>03</strong><span>Diseño</span></div>
-</div>
-
-<h3>Lo que aprenderás</h3>
-
-<div class="modal-temas">
-    <div class="tema-curso">
-        <i data-lucide="palette"></i>
-        <div><strong>Colores y tipografías</strong>
-        <p>Combina elementos visuales de manera armoniosa.</p></div>
+    <div class="modal-beneficio" id="modal-practico" aria-hidden="true">
+        <div class="modal-beneficio-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-practico">
+            <button class="cerrar-beneficio" id="cerrar-practico" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="beneficio-imagen">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
+                    alt="Práctica en computadora">
+            </div>
+            <div class="beneficio-detalles">
+                <span class="eyebrow">APRENDE HACIENDO</span>
+                <h2 id="titulo-practico">Aprendizaje práctico</h2>
+                <p>
+                    Tendrás la oportunidad de practicar lo aprendido
+                    con actividades que te ayudarán a familiarizarte
+                    con la computadora y sus herramientas.
+                </p>
+                <button class="btn btn-primary" id="listo-practico">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-    <div class="tema-curso">
-        <i data-lucide="layers"></i>
-        <div><strong>Composición visual</strong>
-        <p>Organiza textos, imágenes y formas en tus diseños.</p></div>
+
+    <div class="modal-beneficio" id="modal-ritmo" aria-hidden="true">
+        <div class="modal-beneficio-contenido" role="dialog" aria-modal="true" aria-labelledby="titulo-ritmo">
+            <button class="cerrar-beneficio" id="cerrar-ritmo" aria-label="Cerrar">
+                <i data-lucide="x"></i>
+            </button>
+            <div class="beneficio-imagen">
+                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=85"
+                    alt="Persona aprendiendo a su ritmo">
+            </div>
+            <div class="beneficio-detalles">
+                <span class="eyebrow">SIN PRESIONES</span>
+                <h2 id="titulo-ritmo">A tu propio ritmo</h2>
+                <p>
+                    No necesitas saberlo todo desde el principio.
+                    Puedes tomarte el tiempo necesario para practicar,
+                    preguntar y avanzar con confianza.
+                </p>
+                <button class="btn btn-primary" id="listo-ritmo">¡Entendido!</button>
+            </div>
+        </div>
     </div>
-    <div class="tema-curso">
-        <i data-lucide="image"></i>
-        <div><strong>Contenido digital</strong>
-        <p>Crea afiches y publicaciones para redes sociales.</p></div>
-    </div>
-</div>
-
-<div class="modal-curso-practica">
-    <i data-lucide="brush"></i>
-    <div>
-        <h3>Tu reto práctico</h3>
-        <p>Diseña un afiche digital con título, imágenes y una paleta de colores.</p>
-    </div>
-</div>
-
-<button type="button" class="btn btn-primary"
-        id="listo-diseno">
-    ¡Entendido! 
-            <i data-lucide="check"></i>
-        </button>
-
-    </div>
-</div>
-
-
-<!-- MODAL: HERRAMIENTAS OFIMÁTICAS -->
-<div class="modal-curso"
-     id="modal-ofimatica"
-     role="dialog"
-     aria-modal="true"
-     aria-labelledby="titulo-ofimatica"
-     aria-hidden="true">
-
-    <div class="modal-curso-contenido">
-
-        <button type="button" class="cerrar-modal"
-                id="cerrar-ofimatica" aria-label="Cerrar ventana">
-            <i data-lucide="x"></i>
-        </button>
-
-<span class="section-tag">CURSO 03 / OFIMÁTICA</span>
-
-<div class="modal-imagen">
-    <img
-        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
-        alt="Espacio de trabajo digital con computadora"
-        loading="lazy">
-    <span class="etiqueta-imagen">Trabaja inteligentemente</span>
-</div>
-
-<h2 id="titulo-ofimatica">
-    Herramientas <span>ofimáticas</span>
-</h2>
-
-<p class="modal-curso-descripcion">
-    Mejora tu productividad aprendiendo a crear documentos,
-    organizar datos y presentar información de forma clara.
-    Desarrolla habilidades útiles para tus estudios y proyectos.
-</p>
-
-<div class="modal-datos">
-    <div><strong>01</strong><span>Documentos</span></div>
-    <div><strong>02</strong><span>Cálculos</span></div>
-    <div><strong>03</strong><span>Presentaciones</span></div>
-</div>
-
-<h3>Lo que aprenderás</h3>
-
-<div class="modal-temas">
-    <div class="tema-curso">
-        <i data-lucide="file-text"></i>
-        <div><strong>Documentos con Word</strong>
-        <p>Da formato a textos, títulos y trabajos escolares.</p></div>
-    </div>
-    <div class="tema-curso">
-        <i data-lucide="table"></i>
-        <div><strong>Datos con Excel</strong>
-        <p>Organiza tablas y utiliza fórmulas básicas.</p></div>
-    </div>
-    <div class="tema-curso">
-        <i data-lucide="presentation"></i>
-        <div><strong>Presentaciones</strong>
-        <p>Explica tus ideas con diapositivas claras y visuales.</p></div>
-    </div>
-</div>
-
-<div class="modal-curso-practica">
-    <i data-lucide="clipboard-check"></i>
-    <div>
-        <h3>Tu reto práctico</h3>
-        <p>Prepara un pequeño proyecto con un documento, una tabla y diapositivas.</p>
-    </div>
-</div>
-
-<button type="button" class="btn btn-primary"
-        id="listo-ofimatica">
-    ¡Entendido! 
-            <i data-lucide="check"></i>
-        </button>
-
-    </div>
-</div>
-
-
-<!-- MODAL: CREACIÓN DE PÁGINAS WEB -->
-<div class="modal-curso"
-     id="modal-web"
-     role="dialog"
-     aria-modal="true"
-     aria-labelledby="titulo-web"
-     aria-hidden="true">
-
-    <div class="modal-curso-contenido">
-
-        <button type="button" class="cerrar-modal"
-                id="cerrar-web" aria-label="Cerrar ventana">
-            <i data-lucide="x"></i>
-        </button>
-
-<span class="section-tag">CURSO 04 / DESARROLLO WEB</span>
-
-<div class="modal-imagen">
-    <img
-        src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=85"
-        alt="Desarrollador trabajando en un proyecto web"
-        loading="lazy">
-    <span class="etiqueta-imagen">Construye tu primera web</span>
-</div>
-
-<h2 id="titulo-web">
-    Creación de <span>páginas web</span>
-</h2>
-
-<p class="modal-curso-descripcion">
-    Aprende cómo se construyen los sitios web y desarrolla
-    tu primera página desde cero. Combina estructura,
-    diseño e interactividad con tecnologías web.
-</p>
-
-<div class="modal-datos">
-    <div><strong>01</strong><span>HTML</span></div>
-    <div><strong>02</strong><span>CSS</span></div>
-    <div><strong>03</strong><span>JavaScript</span></div>
-</div>
-
-<h3>Lo que aprenderás</h3>
-
-<div class="modal-temas">
-    <div class="tema-curso">
-        <i data-lucide="code"></i>
-        <div><strong>Estructura con HTML</strong>
-        <p>Agrega títulos, textos, imágenes y enlaces.</p></div>
-    </div>
-    <div class="tema-curso">
-        <i data-lucide="paintbrush"></i>
-        <div><strong>Diseño con CSS</strong>
-        <p>Personaliza colores, espacios, tarjetas y botones.</p></div>
-    </div>
-    <div class="tema-curso">
-        <i data-lucide="zap"></i>
-        <div><strong>Interactividad</strong>
-        <p>Utiliza JavaScript para añadir funciones a tu página.</p></div>
-    </div>
-</div>
-
-<div class="modal-curso-practica">
-    <i data-lucide="monitor"></i>
-    <div>
-        <h3>Tu reto práctico</h3>
-        <p>Construye una página personal con navegación, imágenes y estilos propios.</p>
-    </div>
-</div>
-
-<button type="button" class="btn btn-primary"
-        id="listo-web">
-    ¡Entendido! <i data-lucide="check"></i>
-</button>
-
-    </div>
-</div>
-
 
 </body>
 </html>
